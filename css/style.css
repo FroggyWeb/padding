@@ -72,12 +72,17 @@ body {
     -ms-flex: 1 0 60%;
     flex: 1 0 60%;
     position: relative;
+     }
+@media (min-width: 1320px;) {
+  .section__image {
     -webkit-box-sizing: content-box;
-    box-sizing: content-box; }
+    box-sizing: content-box;
+  }
  .img-1 {
     padding-right: calc((100vw - 1320px) / 2); }
  .img-2 {
     padding-left: calc((100vw - 1320px) / 2); }
+}
  .section__image img {
     position: absolute;
     width: 100%;
