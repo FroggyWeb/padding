@@ -33,7 +33,12 @@ body {
     -webkit-box-direction: reverse;
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse; } 
-
+@media (max-width: 767px;) {
+  .section-1,
+  .section-2 {
+    flex-wrap: wrap;
+  }
+}
 .section__body {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 40%;
