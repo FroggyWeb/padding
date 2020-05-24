@@ -68,9 +68,9 @@ body {
 
  
  .section__image {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 0 60%;
-    flex: 1 0 60%;
+    -webkit-box-flex: 0;
+    -ms-flex:  0 60%;
+    flex: 0 0 60%;
     position: relative;
      }
 @media (min-width: 1320px;) {
