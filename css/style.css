@@ -32,7 +32,8 @@ body {
   flex-direction: row-reverse;
 }
 .section__content {
-     min-width: 40%;
+     /*min-width: 40%;*/
+     flex: 0 0 40%;
      display: flex;
      align-items: center;
   }
@@ -48,8 +49,8 @@ body {
   }
 @media (min-width: 768px) {
   .section__image {
-    flex: 0 0 60%;
-    min-width: calc(60% + ((100vw - 1360px) / 2));
+    flex: 0 0 calc(60% + ((100vw - 1360px) / 2));
+    /*min-width: calc(60% + ((100vw - 1360px) / 2));*/
   }
 }
 .section__image img {
